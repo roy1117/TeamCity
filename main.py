@@ -1,4 +1,5 @@
 import time
 print('Hello world')
-time.sleep(60)
-print('Are you there')
+with open('readMe.txt', 'w') as f:
+    f.write('readme')
+print('finish..')
